@@ -21,5 +21,7 @@ data = {
     "followedByCount": info.follower_count,
 }
 
+print(data)
+
 with open("./data.json", "w") as outfile:
     json.dump(data, outfile)
